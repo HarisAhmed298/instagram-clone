@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>INSTAGRAM CLONE</title>
+</head>
+<body class="bg-gray-200">
+ <div class="flex">
+  <div class="flex w-[260px] bg-white h-400 flex-col">
+    
+      <div class="flex justify-center">
+        <img src="/images/instagram.jpg" alt="Logo" class="w-40 mt-8">
+      </div>
+    
+    <div class="flex flex-col gap-5 ml-8 mt-8">
+      <div class="flex items-center gap-3">
+        <img src="/images/home.jpg" alt="Home" class="w-9">
+        <p>Home</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <img src="/images/search.jpg" alt="Home" class="w-9">
+        <p>Search</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <img src="/images/compus.jpg" alt="Home" class="w-9">
+        <p>Explore</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <img src="/images/videos.jpg" alt="Home" class="w-9">
+        <p>Reels</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <img src="/images/message.jpg" alt="Home" class="w-9">
+        <p>Messages</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <img src="/images/love.jpg" alt="Home" class="w-9">
+        <p>Notifications</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <img src="/images/plus.jpg" alt="Home" class="w-9">
+        <p>Create</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <img src="/images/profile.jpg" alt="Home" class="w-9 border-2 rounded-[20px]">
+        <p>profile</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <img src="/images/more setting.jpg" alt="Home" class="w-9">
+        <p>More</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="bg-white h-400 w-full flex justify-center ml-[1px]">
+    <div class="bg-white flex h-400 w-240 flex-col">
+
+      <div class="flex ">
+
+        <div>
+          <img src="/images/profile.jpg" alt="" class="h-40 w-40 rounded-[50%]  ml-40 mt-20 border-1">
+        </div>
+        <div class="mt-20 ml-20">
+          <div class="flex items-center gap-5">
+            <p class="font-bold text-lg"> just_12_16</p>
+            <button class="bg-gray-200 w-30"> Edit Profile</button>
+            <button class="bg-gray-200 w-30"> View Archive</button>
+            <img src="/images/setting.jpg" alt="Home" class="w-6">
+          </div>
+          <div class="flex items-center gap-5 mt-8 "> 
+            <p><span class="font-semibold">9</span> Posts</p>
+            <p> <span class="font-semibold">297</span> Followers </p>
+            <p> <span class="font-semibold">9</span> Following </p>
+          </div>
+          <div class="flex flex-col mt-4">
+            <p class="font-semibold text-lg">
+              Haris Ahmed
+            </p>
+            <p>
+               BE YourSelF, EverYoNe ElSe Is AlReadY TaKen
+            </p>
+          </div>
+        </div>
+      </div>
+        <div class="flex  w-21 h-21 bg-gray-600 rounded-[90px] items-center justify-center ml-40 mt-18 ">
+          <img src="/images/add.jpg" alt="" class="h-20 w-20 rounded-[80px]" >
+        </div>
+        <div class="flex justify-center gap-40 mt-20 mb-1">
+          <div> <img src="/images/box.jpg" alt="" class="w-6 h-6"></div>
+          <div> <img src="/images/videos.jpg" alt="" class="2-6 h-6"></div>
+          <div>
+            <img src="/images/save videos.jpg" alt="" class="w-6 h-6">
+          </div>
+          <div> <img src="/images/friends.jpg" alt="" class="w-6 h-6 gap-x-1 gap-y-1"></div>
+        </div>
+        <hr>
+        <div class="grid grid-cols-3 gap-x-[2px] gap-y-[2px]">
+              <div> <img src="/images/nature 1.jpg" alt="" class="h-130 w-full"></div>
+              <div> <img src="/images/nature 2.jpg" alt="" class="h-130 w-full"></div>
+              <div> <img src="/images/nature 3.jpg" alt="" class="h-130 w-full"></div>
+              <div> <img src="/images/nature 4.jpg" alt="" class="h-130 w-full"></div>
+              <di> <img src="/images/nature 5.jpg" alt="" class="h-130 w-full"></di>
+              <div> <img src="/images/nature 6.jpg" alt="" class="h-130 w-full"></div>
+        </div>
+
+   
+      
+  </div>
+  </div>
+ 
+ </div>
+</body>
+</html>
